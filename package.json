@@ -1,0 +1,25 @@
+{
+  "name": "simple-crud-express",
+  "version": "1.0.0",
+  "description": "simple-crud-express",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "test",
+    "start": "node dist/server.js",
+    "build": "tsc -p .",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
